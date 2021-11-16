@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald:wght@700&display=swap');
+
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*-----------------------------------------------------------------------------*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+.container {
+	width: 1177px;
+	margin: 0 auto;
+}
+
+.title {
+	font-family: Oswald;
+}
+
+.header-bg {
+	background: url('../img/bg.jpg') no-repeat center top / cover;
+	display: flex;
+}
+
+.logo-stroke {
+	position: relative;
+	top: 240px;
+}
+
+.header {
+	padding: 16px 0 130px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+.nav>li {
+	margin-right: 53px;
+}
+
+.nav>li:last-child {
+	margin-right: 0;
+}
+
+.nav>li>a {
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.nav>li>a {
+	transition: border 0.3s;
+}
+
+.nav>li>a:hover {
+	border-bottom: 2px solid #961914;
+}
+
+.header-desc {
+	padding-bottom: 450px;
+}
+
+.header-desc__title {
+	width: 490.85px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	margin-bottom: 10px;
+}
+
+.header-desc__sub-title {
+	width: 367.88px;	
+	font-family: Montserrat;
+	font-size: 20px;
+	line-height: 140%;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.header-desc__title-circle {
+	
+}
+
+.header-desc__btn {
+}
+
+.header-desc__btn button {
+	color: #fff;
+	background: #961914;
+	border-radius: 8px;
+	padding: 13px 42px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.description {
+	padding: 180px 0 80px 0;
+}
+
+.desc__wrap {
+	display: flex;
+	align-items: center;
+}
+
+.desc__our-product {
+
+}
+
+.desc__title {	
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+}
+
+.desc__text {
+	width: 584px;
+	font-size: 16px;
+	line-height: 140%;
+	color: #434242;
+	margin-bottom: 24px;
+	margin-top: 32px;
+}
+
+.desc__sub-title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 130%;
+	margin-bottom: 16px;
+}
+
+.desc-list {
+ padding-left: 18px;
+}
+
+.desc-list>li {
+	list-style-type: disc;
+	color: #961914;
+	margin-bottom: 20px;
+}
+
+.desc-list>li>span {
+	font-size: 16px;
+	line-height: 140%;
+	color: #434242;
+}
+
+.desc__img {
+	margin-bottom: 28px;
+}
+
+.our-product {
+
+}
+
+.our-product__wrap {
+	background-color: #EAD1D0;
+}
+
+.our-product__sub-wrap {
+	background: url('../img/bg-line.png') no-repeat center top / cover;
+	display: flex;
+	justify-content: space-between;	
+	padding: 32px 80px;
+}
+
+.our-product__container {
+
+}
+
+.our-product__title {
+	margin-bottom: 32px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.our-product__list-wrap {
+	display: flex;
+}
+
+.our-product__list-wrap:nth-child(1) {
+	padding-right: 72px;
+}
+
+.our-product__list>ul>li {
+	list-style-type: none;
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #434242;
+}
+
+.our-product__list>ul>li>span {
+	margin-right: 16px;
+}
+
+.our-product__list-left {
+	margin-right: 72px;
+}
+
