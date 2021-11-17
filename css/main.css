@@ -227,7 +227,60 @@ font-family: 'Oswald', sans-serif;
 }
 
 .rations {}
-.rations__header {}
-.rations__header-title {}
+.rations__header {
+	margin-bottom: 75px;
+}
+.rations__header-title {
+	
+}
+
 .ations__header-text {}
+
+.rations__items {}
+
+.rations__item {
+	width: 280px;
+}
+
+.rations__items-img {
+	position: relative;
+	margin-bottom: 45px;
+}
+
+.rations__items-img>span {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 1;
+}
+
+.rations__item-title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 130%;
+	color: #000;
+	margin-bottom: 4px;
+}
+
+.rations__item-sub-title {
+	font-size: 13px;
+	line-height: 130%;
+	color: #9F9E9D;
+}
+
+.rations__item-text {
+	font-size: 14px;
+	line-height: 140%;
+	color: #434242;
+	margin: 16px 0 11px 0;
+}
+
+.rations__item-weight {
+	font-size: 13px;
+	line-height: 130%;
+	color: #9F9E9D;
+	margin-bottom: 24px;
+}
+
+.rations__item-btn {}
 
