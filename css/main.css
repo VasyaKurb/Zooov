@@ -350,3 +350,79 @@ font-family: 'Oswald', sans-serif;
 	line-height: 22px;
 	color: #FFFFFF;
 }
+
+.why-zooov {
+	background: url('../img/bg-line2.png') no-repeat center top / cover;
+
+}
+
+.why-zooov__wraper {
+}
+
+.why-zooov__container {}
+
+.why-zooov__main-title {
+	margin-bottom: 60px;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+}
+
+.why-zooov__title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 130%;
+	color: #000000;
+	margin-bottom: 8px;
+}
+
+.why-zooov__main-title>span {
+	position: relative;
+}
+
+.word-arrow-first {
+	position: absolute;
+    top: 65px;
+    left: 135px;
+}
+
+.word-arrow-second {
+    position: relative;
+    transform: rotate(323deg);
+    top: 50px;
+    left: 5px;
+}
+
+.word-arrow-third {
+	position: relative;
+    transform: rotate(108deg);
+    top: 35px;
+    left: 3px;
+}
+
+.why-zooov__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.why-zooov__item {
+	width: 220px;
+}
+
+.why-zooov__item:nth-child(4) {
+	width: 282px;
+}
+
+
+.why-zooov__img {
+	margin-bottom: 20px;
+}
+
+.why-zooov__text {
+	font-size: 16px;
+	line-height: 140%;
+	color: #000000;
+}
+
