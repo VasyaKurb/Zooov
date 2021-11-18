@@ -353,16 +353,16 @@ font-family: 'Oswald', sans-serif;
 
 .why-zooov {
 	background: url('../img/bg-line2.png') no-repeat center top / cover;
-
 }
 
 .why-zooov__wraper {
+	margin-bottom: 190px;
 }
 
 .why-zooov__container {}
 
 .why-zooov__main-title {
-	margin-bottom: 60px;
+	margin-bottom: 65px;
 	font-weight: 600;
 	font-size: 46px;
 	line-height: 130%;
