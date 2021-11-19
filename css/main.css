@@ -327,7 +327,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .calculate__container {
-	width: 1 027px;
+	width: 1027px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -427,7 +427,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .zoov-love {
-
+	padding-bottom: 180px;
 }
 
 .zoov-love__wrap {
@@ -438,19 +438,66 @@ font-family: 'Oswald', sans-serif;
 
 }
 
-.zoov-love__images {
+.zoov-love__content-container {
+	display: flex;
+	justify-content: space-between;
+}
 
+.zoov-love__images {
+	position: relative;
+	height: 100%;
+	width: 50%;
+	margin-right: 60px;
+}
+
+.zoov-love__images1 {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.zoov-love__images2 {
+	display: block;
+	position: absolute;
+	top: 485px;
+	left: -55px;
+}
+
+.zoov-love__images3 {
+	display: block;
+	z-index: 1;
+	position: absolute;
+	top: 287px;
+	left: 415px;
+}
+
+.zoov-love__images4 {
+	display: block;
+	position: relative;
+	top: 356px;
+	left: 194px;	
 }
 
 .zoov-love__text {
-
+	width: 50%;
 }
 
 .zoov-love__text-title {
-
+	width: 416px;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	margin-bottom: 40px;
 }
 
 .zoov-love__text-description {
-
+	width: 520px;
+	font-size: 16px;
+	line-height: 130%;
+	color: #434242;
 }
+
+
 
