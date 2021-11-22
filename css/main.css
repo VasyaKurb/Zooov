@@ -569,9 +569,10 @@ font-family: 'Oswald', sans-serif;
 	margin-right: 76px;
 }
 
-.faq__questions {}
-
-.faq__item {}
+.faq__item {
+	padding: 32px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
 
 .faq__item-wrap {
 	display: flex;
@@ -590,6 +591,7 @@ font-family: 'Oswald', sans-serif;
     position: relative;
     margin-left: 10px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .faq__item-control:before {
@@ -614,8 +616,23 @@ font-family: 'Oswald', sans-serif;
 }
 
 .faq__item-text {
+	overflow: hidden;
+	max-height: 0px;
 	font-size: 16px;
 	line-height: 140%;
 	color: #434242;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.faq__item.checked>.faq__item-text {
+	transition: all 0.3s;
+	opacity: 1;
+	padding: 21px 0 32px 0;
+    max-height: none;
+}
+
+.faq__item-control.rotated {
+	transform: rotate(-45deg);
 }
 
