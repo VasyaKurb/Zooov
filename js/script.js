@@ -6,8 +6,7 @@ const faqItem = document.querySelector('.faq__item');
 const faqTitle = document.querySelector('.faq__item-title');
 
 
-// Функция открытия ответа на часто задаваемый вопрос
-
+// Открытие ответа на часто задаваемый вопрос
 for (var i = 0; i < faqControl.length; i++) {
 	faqControl[i].addEventListener('click', e => {
 		e.target.parentNode.parentNode.classList.toggle('checked');

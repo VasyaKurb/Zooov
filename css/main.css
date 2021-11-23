@@ -548,7 +548,9 @@ font-family: 'Oswald', sans-serif;
 	border-bottom: 1px solid #961914;
 }
 
-.faq {}
+.faq {
+	padding-bottom: 180px;
+}
 
 .faq-wrapper {
 	display: flex;
@@ -571,6 +573,9 @@ font-family: 'Oswald', sans-serif;
 
 .faq__item {
 	padding: 32px 0;
+}
+
+.faq__item:not(:last-child) {
 	border-bottom: 1px solid #E5E5E5;
 }
 
@@ -634,5 +639,123 @@ font-family: 'Oswald', sans-serif;
 
 .faq__item-control.rotated {
 	transform: rotate(-45deg);
+}
+
+.footer {
+
+}
+
+.footer-top {
+	color: #fff;
+}
+
+.footer-bg {
+	background: url('../img/footer/footer-bg.jpg') no-repeat center top / cover;
+}
+
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__contacts {
+
+}
+
+.footer__contacts-title {
+
+}
+
+.footer__contacts-text {
+
+}
+
+.footer__contacts-phone-number {
+
+}
+
+.footer__contacts-btns_wrap {
+
+}
+
+.footer__contacts-btn {
+
+}
+
+.footer__contacts-subscribe {
+
+}
+
+.footer__form {
+	max-width: 636px;
+}
+
+.footer__form-title {
+
+}
+
+.footer__form-text {
+
+}
+
+.footer__form-wrap {
+
+}
+
+.form {
+
+}
+
+.form__filed {
+
+}
+
+.form__textarea {
+	max-width: 636px;
+	min-width: 636px;
+}
+
+.form__label_wrap {
+	display: flex;
+	align-items: center;
+}
+
+.form__checkbox-label {
+	display: flex;
+	margin-top: 22px;
+}
+
+.form__checkbox {
+	opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form__fake-checkbox {
+	min-width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 2px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.form__checkbox:checked + .form__fake-checkbox {
+	background-image: url('../img/footer/V.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form__label-text {
+	width: 237.86px;
+	font-size: 12px;
+	line-height: 140%;
+	color: #fff;
+}
+
+.form__btn {
+
 }
 
