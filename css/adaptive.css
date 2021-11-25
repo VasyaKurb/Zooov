@@ -1,0 +1,271 @@
+@media (max-width: 1440px) {
+	.container {
+		width: 1100px;
+	}
+
+	.header-desc__title {
+	    margin-bottom: 35px;
+	    font-size: 65px;
+	}
+
+	.header-desc__sub-title {
+	    margin-bottom: 40px;
+	    font-size: 23px;
+	}
+
+	.header-desc {
+	    padding-bottom: 180px;
+	}
+
+	.nav>li {
+	    margin-right: 45px;
+	}
+
+	.how-to-take__item {
+		width: 235px;
+	}
+
+	.rations {
+	    padding-bottom: 150px;
+	}
+
+	.rations__items {
+		flex-wrap: nowrap;
+	}
+
+	.rations__item {
+	    width: 240px;
+	}
+
+   .rations__items-img>img {
+	   	width: 200px;
+   }
+
+   .rations__items-img>span>img {
+   		width: 50px;
+   }
+	.our-product {
+	    padding-bottom: 130px;
+	}
+
+	.our-product__list-left {
+	    margin-right: 50px;
+	}
+
+	.rations__header {
+	    margin-bottom: 120px;
+	}
+
+	.zoov-love__text {
+	    width: 46%;
+	}
+
+	.calculate {
+	    margin-top: 110px;
+	}
+
+	.calculate__container {
+	    width: 970px;
+   }
+
+   .calculate__text {
+   		font-size: 25px;
+   }
+
+   .desc__sub-title {
+	    margin-bottom: 25px;
+	}
+
+	.desc__text {
+		margin-bottom: 25px;
+	}
+
+	.rations__header-title {
+		font-size: 40px;
+	}
+
+	.ations__header-text {
+	    width: 675px;
+   }
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 750px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.desc__wrap {
+		flex-direction: column-reverse;	
+	}
+
+	.calculate__text {
+	    font-size: 20px;
+	}
+
+	.calculate__wrap {
+		padding: 20px;
+	}
+
+	.calculate__container {
+	    width: 630px;
+	}
+
+	.calculate__text {
+		width: 450px;
+	}
+
+	.rations__header {
+	    margin: ;argin-bottom: 90px;
+	}
+
+	.rations__items {
+	    flex-wrap: wrap;
+	}
+
+	.rations__item {
+	    width: 290px;
+	    margin-bottom: 100px;
+	}
+
+	.rations__item {
+		margin: 0 0 40px 0;
+	}
+
+	.rations__item-title {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+
+	.rations__item-sub-title {
+	   font-size: 15px;
+	}
+
+	.rations__items-img>img {
+	    width: 290px;
+	}
+
+	.rations__items-img>span>img {
+	    width: 70px;
+	}
+
+	.ations__header-text {
+    	font-size: 14px;
+	}
+
+	.rations__item-btn {
+	    width: 100%;
+	}
+
+	.rations__item-weight {
+	    font-size: 15px;
+	}
+
+	.calculate__wrap {
+		background: url(../img/bg-line.png) no-repeat center / cover;
+	}
+
+	.zoov-love__images {
+		width: 475px;
+	    height: 645px;
+		display: block;	
+	}
+
+	.zoov-love__text {
+		width: 100%;
+	}
+
+	.zoov-love__text-title {
+	    width: 600px;
+	}
+
+	.zoov-love__content-container {
+		justify-content: start;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__contacts {
+		margin-bottom: 60px;
+	}
+
+	.zoov-love__images {
+		width: 693px;
+	}
+
+	.zoov-love__images2, .zoov-love__images3, .zoov-love__images4 {
+		display: none;
+	}
+
+	.faq-wrapper {
+		flex-direction: column;
+	}
+
+	.faq__title {
+	    width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.footer-bottom_wrap>p {
+	    font-size: 10px;
+	}
+
+	.footer-bottom_wrap>a {
+	    font-size: 10px;
+	}
+
+	.how-to-take__title {
+		text-align: center;
+	}
+
+	.how-to-take__items {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.how-to-take__item {
+	    width: 100%;
+	    margin-bottom: 50px;
+	}
+
+	.how-to-take__item_img-container-two-child {
+		display: none;
+	}
+
+	.how-to-take {
+	    padding-bottom: 150px;
+	}
+
+	.why-zooov {
+	    background: url(../img/bg-line2.png) no-repeat center / cover;
+	}
+
+	.why-zooov__items {
+		flex-direction: column;
+	}
+
+	.why-zooov__wraper {
+	    margin-bottom: 100px;
+	}
+
+	.why-zooov__item {
+	    width: 100%;
+        margin-bottom: 50px;
+	}
+
+	.why-zooov__item:nth-child(4) {
+	    width: 100%;
+	}
+
+	.why-zooov__title, .why-zooov__text {
+	    font-size: 20px;
+   	}
+
+   	.our-product__list-wrap {
+		background: url(../img/bg-line.png) no-repeat;
+   		flex-direction: column;
+   	}
+}
