@@ -444,7 +444,7 @@
 	    padding-bottom: 50px;
 	}
 }
-=======
+
 @media (max-width: 1440px) {
 	.container {
 		width: 1100px;
@@ -695,6 +695,18 @@
 	    font-weight: 700;
 	}
 
+	.faq {
+	    padding-bottom: 50px;
+	}
+
+	.how-to-take {
+	    padding-bottom: 60px;
+	}
+
+	.footer__contacts-text {
+	    margin: 15px 0 32px 0;
+	}
+
 	.burger {
 		display: block;
 	}
@@ -855,10 +867,6 @@
 	    left: 117px;
 	}
 
-	.how-to-take {
-	    padding-bottom: 80px;
-	}
-
 	.faq__item-title {
 	    font-size: 12px;
 	    font-weight: 700;
@@ -876,9 +884,5 @@
 	.zoov-love__images>img {
 	    width: 100%;
 	}
-
-	.faq {
-	    padding-bottom: 50px;
-	}
 }
->>>>>>> 34e61ca93daf7a48062dee188ad01ae87534ad9e
+
