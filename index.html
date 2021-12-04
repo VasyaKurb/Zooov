@@ -2,9 +2,11 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<title>Zooov</title>
 </head>
 <body>
@@ -22,6 +24,9 @@
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">FAQ</a></li>
 					<li><a href="#">Контакты</a></li>
+					<div class="burger">
+						<span></span>
+					</div>
 				</ul>
 			</div>
 			<div class="header-desc">
@@ -34,9 +39,7 @@
 				</div>		
 			</div>
 		</div>
-		<div class="logo-stroke">
-			<img src="img/logo-stroke.svg" alt="">
-		</div>
+		<div class="logo-stroke"></div>
 	</header>
 	<section class="description">
 		<div class="container">
@@ -61,46 +64,84 @@
 	</section>
 	<section class="our-product">
 		<div class="container">
-			<div class="our-product__wrap">
-				<div class="our-product__sub-wrap">
-					<div class="our-product__container">
-						<div class="our-product__title">Для взрослых</div>
-						<div class="our-product__list-wrap">
-						    <div class="our-product__list our-product__list-left">
-						    	<ul>
-						    		<li><span><img src="img/specifications-img/meet.svg" alt=""></span> Мясо – 70%  </li>
-						    		<li><span><img src="img/specifications-img/bone.svg" alt=""></span> Кости – 10%</li>
-						    		<li><span><img src="img/specifications-img/vegs.svg" alt=""></span> Овощи – 7%</li>
-						    		<li><span><img src="img/specifications-img/liver.svg" alt=""></span> Печень – 5%</li>
-						    	</ul>
-						    </div>
-						    <div class="our-product__list">
-						    	<ul>
-						    		<li><span><img src="img/specifications-img/gutsvg.svg" alt=""></span>Субпродукты – 5%</li>
-						    		<li><span><img src="img/specifications-img/nutssvg.svg" alt=""></span>Семена/Орехи – 2% </li>
-						    		<li><span><img src="img/specifications-img/fruts.svg" alt=""></span>Фрукты – 1%</li>
-						    	</ul>
-						    </div>
+			<div class="product__slider">
+				<div class="product__slider_wrap">
+					<div class="product__slide">
+						<div class="product__slide-wrap">
+							<div class="slide__title">Для взрослых</div>
+							<ul class="slide__list">
+								<div>
+									<li>
+										<img src="img/specifications-img/meet.svg" alt="">
+										Мясо – 70%
+									</li>
+									<li>
+										<img src="img/specifications-img/bone.svg" alt="">
+										Кости – 10%
+									</li>
+									<li>
+										<img src="img/specifications-img/vegs.svg" alt="">
+										Овощи – 7%
+									</li>
+									<li>
+										<img src="img/specifications-img/liver.svg" alt="">
+										Печень – 5%
+									</li>
+								</div>
+								<div>
+									<li>
+										<img src="img/specifications-img/gutsvg.svg" alt="">
+										Субпродукты – 5%
+									</li>
+									<li>
+										<img src="img/specifications-img/nutssvg.svg" alt="">
+										Семена/Орехи – 2%
+									</li>
+									<li>
+										<img src="img/specifications-img/fruts.svg" alt="">
+										Фрукты – 1%
+									</li>
+								</div>
+							</ul>
 						</div>
 					</div>
-					<div class="our-product__container">
-						<div class="our-product__title">Для щенков</div>
-						<div class="our-product__list-wrap">
-						    <div class="our-product__list our-product__list-left">
-						    	<ul>
-						    		<li><span><img src="img/specifications-img/meet.svg" alt=""></span> Мясо – 58%</li>
-						    		<li><span><img src="img/specifications-img/bone.svg" alt=""></span> Кости – 17%</li>
-						    		<li><span><img src="img/specifications-img/vegs.svg" alt=""></span> Овощи – 7%</li>
-						    		<li><span><img src="img/specifications-img/liver.svg" alt=""></span> Печень – 7%</li>
-						    	</ul>
-						    </div>
-						    <div class="our-product__list">
-						    	<ul>
-						    		<li><span><img src="img/specifications-img/gutsvg.svg" alt=""></span>Субпродукты – 7%</li>
-						    		<li><span><img src="img/specifications-img/nutssvg.svg" alt=""></span>Семена/Орехи – 3% </li>
-						    		<li><span><img src="img/specifications-img/fruts.svg" alt=""></span>Фрукты – 1%</li>
-						    	</ul>
-						    </div>
+					<div class="product__slide">
+						<div class="product__slide-wrap">
+							<div class="slide__title">Для щенков</div>
+							<ul class="slide__list">
+								<div>
+									<li>
+										<img src="img/specifications-img/meet.svg" alt="">
+										Мясо – 58%
+									</li>
+									<li>
+										<img src="img/specifications-img/bone.svg" alt="">
+										Кости – 17%
+									</li>
+									<li>
+										<img src="img/specifications-img/vegs.svg" alt="">
+										Овощи – 7%
+									</li>
+									<li>
+										<img src="img/specifications-img/liver.svg" alt="">
+										Печень – 7%
+									</li>
+								</div>
+								<div>
+									<li>
+										<img src="img/specifications-img/gutsvg.svg" alt="">
+										Субпродукты – 7%
+									</li>
+									<li>
+										<img src="img/specifications-img/nutssvg.svg" alt="">
+										Семена/Орехи – 3%
+									</li>
+									<li>
+										<img src="img/specifications-img/fruts.svg" alt="">
+										Фрукты – 1%
+									</li>
+								</div>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -207,10 +248,7 @@
 					<div class="container">
 						<div class="zoov-love__content-container">
 							<div class="zoov-love__images">
-								<img class="zoov-love__images1" src="img/love-and-care/love1.jpg" alt="">
-								<img class="zoov-love__images2" style="width: 183px;height: 183px;" src="img/love-and-care/love-dog.png" alt="">
-								<img class="zoov-love__images3" src="img/love-and-care/love-heart.svg" alt="">
-								<img class="zoov-love__images4" src="img/love-and-care/love2.png" alt="">
+								<img src="img/love-and-care/love.png" alt="">
 							</div>
 							<div class="zoov-love__text">
 								<div class="zoov-love__text-title title">С заботой и <span>любовь</span> от Zooov</div>
@@ -384,7 +422,8 @@
 			</div>
 		</div>
 	</section>
-	<!-- <script src="js/jquery.js"></script> -->
+	<script src="js/jquery.js"></script>
+	<script src="slick/slick.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
