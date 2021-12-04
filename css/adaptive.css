@@ -248,6 +248,11 @@
 	    font-weight: 700;
 	}
 
+	.desc-list {
+	    padding-left: 18px;
+	    margin-bottom: 40px;
+	}
+
 	.burger {
 		display: block;
 	}
@@ -367,6 +372,10 @@
 	.header-bg::before {
 		display: none;
 	}
+
+	.product__slider {
+		padding: 30px;
+	}
 }
 
 @media (max-width: 320px) {
@@ -389,10 +398,6 @@
 	.calculate__text {
 	    font-size: 18px;
 	    font-weight: 700;
-	}
-
-	.product__slider {
-		padding: 30px;
 	}
 
 	.rations__item {
