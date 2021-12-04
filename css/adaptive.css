@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 1440px) {
 	.container {
 		width: 1100px;
@@ -443,3 +444,441 @@
 	    padding-bottom: 50px;
 	}
 }
+=======
+@media (max-width: 1440px) {
+	.container {
+		width: 1100px;
+	}
+
+	.header-desc__title {
+	    margin-bottom: 35px;
+	    font-size: 65px;
+	}
+
+	.header-desc__sub-title {
+	    margin-bottom: 40px;
+	    font-size: 23px;
+	}
+
+	.header-desc {
+	    padding-bottom: 180px;
+	}
+
+	.nav>li {
+	    margin-right: 45px;
+	}
+
+	.how-to-take__item {
+		width: 235px;
+	}
+
+	.rations {
+	    padding-bottom: 150px;
+	}
+
+	.rations__items {
+		flex-wrap: nowrap;
+	}
+
+	.rations__item {
+	    width: 240px;
+	}
+
+   .rations__items-img>img {
+	   	width: 200px;
+   }
+
+   .rations__items-img>span>img {
+   		width: 50px;
+   }
+	.our-product {
+	    padding-bottom: 130px;
+	}
+
+	.our-product__list-left {
+	    margin-right: 50px;
+	}
+
+	.zoov-love__images>img {
+		width: 90%;
+	}
+
+	.rations__header {
+	    margin-bottom: 120px;
+	}
+
+	.zoov-love__text {
+	    width: 46%;
+	}
+
+	.calculate {
+	    margin-top: 110px;
+	}
+
+	.calculate__container {
+	    width: 100%;
+   }
+
+   .calculate__text {
+   		font-size: 25px;
+   }
+
+   .desc__sub-title {
+	    margin-bottom: 25px;
+	}
+
+	.desc__text {
+		margin-bottom: 25px;
+	}
+
+	.desc__img>img {
+	    width: 90%;
+	}
+
+	.rations__header-title {
+		font-size: 40px;
+	}
+
+	.ations__header-text {
+	    width: 675px;
+   }
+}
+
+@media (max-width: 1300px) {
+	.container {
+		width: 1000px;
+	}
+
+	.nav>li {
+	    margin-right: 30px;
+	}
+
+	.logo-stroke {
+		display: none;
+	}
+
+	.slide__list {
+		flex-direction: column;
+	}
+
+	.slide__list>div:first-child {
+	    margin-bottom: 26px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 900px;
+	}
+
+	.description {
+	    padding: 180px 0 0 0;
+	}
+
+	.desc__wrap {
+		flex-direction: column;
+	}
+
+	.desc__img>img {
+	    width: 100%;
+	}
+
+	.faq__title {
+	    width: 50%;
+	    font-size: 40px;
+	    line-height: 120%;
+	    margin-right: 60px;
+	}
+
+	.why-zooov__items {
+		grid-template-columns: repeat(2, 1fr);
+	    grid-row-gap: 40px;
+	    grid-column-gap: 40px;
+	}
+
+	.how-to-take__item {
+	    width: 175px;
+	}
+
+	.how-to-take {
+	    padding-bottom: 130px;
+	}
+
+	.rations__item {
+	    width: 200px;
+	}
+
+@media (max-width: 768px) {
+	.container {
+		width: 700px;
+	}
+
+	.slide__title {
+		text-align: center;
+	    margin-bottom: 30px;
+	    margin-right: 100px;
+	}
+
+	.slide__list {
+		align-items: center;
+	    margin-bottom: 40px;
+	}
+
+	.product__slide-wrap {
+		align-items: center;
+	}
+
+	.nav>li {
+		display: none;
+	}
+
+	.zoov-love__content-container {
+	    justify-content: space-between;
+	    flex-direction: column-reverse;
+	    align-items: center;
+	}
+
+	.zoov-love__text-title {
+	    width: 100%;
+	}
+
+	.zoov-love__text {
+	    width: 100%;
+	}
+
+	.zoov-love__images {
+	    width: 70%;
+	    margin-top: 50px;
+	}
+
+	.how-to-take__items {
+    	flex-direction: column;
+	}
+
+	.how-to-take__item {
+		margin-bottom: 50px;
+		width: 440px;
+	}
+
+	.footer-bottom_wrap>p {
+		font-size: 11px;
+	}
+
+	.how-to-take__item_img-container-two-child {
+		display: none;
+	}
+
+	.rations__item {
+		width: 250px;
+	}
+
+	.faq-wrapper {
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	.faq__title {
+	    margin-bottom: 25px; 
+	}
+
+	.calculate__text {
+	    font-size: 20px;
+	}
+
+	.form__filed {
+	    color: #000;
+	    font-weight: 700;
+	}
+
+	.form__textarea {
+	    color: #000;
+	    font-weight: 700;
+	}
+
+	.burger {
+		display: block;
+	}
+}
+
+
+@media (max-width: 650px) {
+	.container {
+		width: 500px;
+	}
+
+	.why-zooov__items {
+	    grid-template-columns: 1fr;
+	    justify-items: start;
+	}
+
+	.faq__item-title {
+	    font-size: 14px;
+	}
+
+	.form__filed-wrap {
+		flex-direction: column;
+	}
+
+	.form__filed:first-child {
+		margin-bottom: 15px;
+	}
+
+	.form__filed {
+		min-width: 100%;
+		color: #fff;
+	}
+
+	.form__textarea {
+		min-width: 100%;
+		color: #fff;
+	}
+
+	.ations__header-text {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.calculate__container {
+		flex-direction: column;
+	}
+
+	.calculate__text {
+		margin-bottom: 30px;
+	}
+}
+
+
+@media (max-width: 425px) {
+	.container {
+		width: 350px;
+	}
+
+	.header-desc__title {
+	    width: 100%;
+        font-size: 45px;
+	}
+
+	.header-desc__sub-title {
+    	width: 100%;
+	}
+
+	.desc__text {
+	    width: 100%;
+	}
+
+	.rations__item {
+	    margin-left: 60px;
+	}
+
+	.rations__header {
+		flex-direction: column;
+	}
+
+	.rations__header-title {
+		margin-bottom: 30px;
+	}
+
+	.rations__item-text {
+	    width: 270px;
+	}
+
+	.how-to-take__item {
+		width: 100%;
+	}
+
+	.footer__form {
+	    max-width: 100%;
+	}
+
+	.footer__form-text {
+    	width: 100%;
+	}
+
+	.form__checkbox-label {
+		margin-bottom: 30px;
+	}
+
+	.form__label_wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-bottom_wrap {
+		flex-direction: column;
+	}
+
+	.footer-bottom_wrap:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.header-bg::before {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.container {
+		width: 300px;
+	}
+
+	.description {
+	    padding: 90px 0 0 0;
+	}
+
+	.rations__header {
+		margin-bottom: 80px;
+	}
+
+	.calculate__wrap {
+		padding: 20px;
+	}
+
+	.calculate__text {
+	    font-size: 18px;
+	    font-weight: 700;
+	}
+
+	.product__slider {
+		padding: 30px;
+	}
+
+	.rations__item {
+		margin-left: 50px;
+	}
+
+	.why-zooov__main-title {
+		font-size: 40px;
+	}
+
+	.word-arrow-first {
+	    top: 65px;
+	    left: 117px;
+	}
+
+	.how-to-take {
+	    padding-bottom: 80px;
+	}
+
+	.faq__item-title {
+	    font-size: 12px;
+	    font-weight: 700;
+	}
+
+	.why-zooov__wraper {
+	    margin-bottom: 100px;
+	}
+
+	.zoov-love__images {
+	    width: 100%;
+	    margin-top: 50px;
+	}
+
+	.zoov-love__images>img {
+	    width: 100%;
+	}
+
+	.faq {
+	    padding-bottom: 50px;
+	}
+}
+>>>>>>> 34e61ca93daf7a48062dee188ad01ae87534ad9e
