@@ -185,6 +185,10 @@
 		display: none;
 	}
 
+	.description {
+	    padding: 100px 0 0 0;
+	}
+
 	.zoov-love__content-container {
 	    justify-content: space-between;
 	    flex-direction: column-reverse;
