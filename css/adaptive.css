@@ -187,6 +187,14 @@
 		top: 0;
 	}
 
+	.header.scrolled .burger::before, .header.scrolled .burger::after, .header.scrolled .burger>span {
+		background-color: #000;
+	}
+
+	.burger.menu-active>span {
+		display: none;
+	}
+
 	.burger {
 		transition: 0.6s;
 	}
@@ -227,6 +235,7 @@
 
 	.header__list>li:last-child {
 		margin-bottom: 30px;
+		border: none;
 	}
 
 	.header__list {
@@ -458,8 +467,18 @@
 		margin-bottom: 20px;
 	}
 
+	.th-window {
+	    width: 100%;
+	}
+
 	.header-bg::before {
 		display: none;
+	}
+}
+
+@media (max-width: 350px) {
+	.container {
+		width: 310px;
 	}
 }
 

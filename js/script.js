@@ -31,7 +31,7 @@ $(function(){
 	});
 });
 
-// Слайдер
+// burger
 $(function(){
   	$('.burger').click(function() {
         $('.burger,.header__menu').toggleClass('menu-active');
@@ -39,6 +39,14 @@ $(function(){
     });
 });
 
+// sticky-header
+
+$(window).on("scroll", function() {
+    if ($(window).scrollTop() > 50) $('.header').addClass('scrolled');
+        else $('.header').removeClass('scrolled');
+});
+
+// Слайдер
 $(function(){
   	$('.product__slider_wrap').slick({
   		infinite: true,

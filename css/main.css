@@ -60,13 +60,22 @@ font-family: 'Oswald', sans-serif;
 	top: 0;
 	left: 0;
 	z-index: 3;
+	transition: 0.3s;
+}
+
+.header.scrolled {
+	background-color: #fff;
+}
+
+.header.scrolled .header__list>li>a {
+	color: #000;
 }
 
 .header__body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 15px;
+	padding: 10px 0 10px 0;
 }
 
 .logo {}
@@ -81,6 +90,12 @@ font-family: 'Oswald', sans-serif;
 
 .header__list>li {
 	margin-right: 50px;
+	border-bottom: 2px solid transparent;
+	transition: 0.7s;
+}
+
+.header__list>li:hover {
+	border-color: #961914;
 }
 
 .header__list>li:last-child {
