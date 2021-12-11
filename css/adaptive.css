@@ -238,6 +238,10 @@
 		border: none;
 	}
 
+	.header__list>li:hover {
+		border: none;
+	}
+
 	.header__list {
 		display: flex;
 		flex-direction: column;
@@ -409,6 +413,9 @@
 		width: 350px;
 	}
 
+	.calculate-wrap {
+	    padding: 40px 20px;
+	}
 
 	.header-desc__title {
 	    width: 100%;
@@ -485,11 +492,18 @@
 	}
 }
 
+@media (max-width: 370px) {
+	.container {
+		width: 315px;
+	}
+}
+
 @media (max-width: 360px) {
 	.container {
 		width: 310px;
 	}
 }
+
 
 @media (max-width: 320px) {
 	.container {
