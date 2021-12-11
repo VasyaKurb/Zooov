@@ -474,6 +474,10 @@
 	.header-bg::before {
 		display: none;
 	}
+	
+	.product__slider {
+		padding: 30px;
+	}
 }
 
 @media (max-width: 350px) {
@@ -504,9 +508,6 @@
 	    font-weight: 700;
 	}
 
-	.product__slider {
-		padding: 30px;
-	}
 
 	.rations__item {
 		margin-left: 50px;
