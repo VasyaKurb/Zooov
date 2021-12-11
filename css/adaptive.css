@@ -409,6 +409,7 @@
 		width: 350px;
 	}
 
+
 	.header-desc__title {
 	    width: 100%;
         font-size: 45px;
@@ -478,9 +479,13 @@
 	.product__slider {
 		padding: 30px;
 	}
+
+	.why-zooov {
+	    background: url(../img/bg-line2.png) no-repeat center;
+	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
 	.container {
 		width: 310px;
 	}
@@ -512,6 +517,7 @@
 	.rations__item {
 		margin-left: 50px;
 	}
+
 
 	.why-zooov__main-title {
 		font-size: 40px;
