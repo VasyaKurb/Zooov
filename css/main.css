@@ -484,10 +484,10 @@ font-family: 'Oswald', sans-serif;
 }
 
 .word-arrow-third {
-	position: relative;
-    transform: rotate(108deg);
-    top: 35px;
-    left: 3px;
+    position: absolute;
+    transform: rotate(110deg);
+    top: 39px;
+    right: -9px;
 }
 
 .why-zooov__items {
@@ -901,6 +901,8 @@ font-family: 'Oswald', sans-serif;
 	justify-content: space-between;
 	padding: 30px 0;
 }
+
+.footer-bottom_wrap :nth-child(2) { margin: 20px 0; }
 
 .footer-bottom_wrap>p {
 	font-size: 12px;
