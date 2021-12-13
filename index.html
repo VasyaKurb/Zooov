@@ -167,7 +167,7 @@
 					<div class="rations__item-sub-title">Индейка/Говядина</div>
 					<div class="rations__item-text">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</div>
 					<div class="rations__item-weight">700г / 500г / 300г / 150г / 100г</div>
-					<button class="rations__item-btn"><span>Заказать</span></button>
+					<button id="rt-popup-1" class="rations__item-btn"><span>Заказать</span></button>
 				</div>
 				<div class="rations__item">
 					<div class="rations__items-img">
@@ -178,7 +178,7 @@
 					<div class="rations__item-sub-title">Индейка/Говядина</div>
 					<div class="rations__item-text">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</div>
 					<div class="rations__item-weight">700г / 500г / 300г / 150г / 100г</div>
-					<button class="rations__item-btn"><span>Заказать</span></button>
+					<button id="rt-popup-2" class="rations__item-btn"><span>Заказать</span></button>
 				</div>
 				<div class="rations__item">
 					<div class="rations__items-img">
@@ -189,7 +189,7 @@
 					<div class="rations__item-sub-title">Баранина/Кролик</div>
 					<div class="rations__item-text">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</div>
 					<div class="rations__item-weight">700г / 500г / 300г / 150г / 100г</div>
-					<button class="rations__item-btn"><span>Заказать</span></button>
+					<button id="rt-popup-3" class="rations__item-btn"><span>Заказать</span></button>
 				</div>
 				<div class="rations__item">
 					<div class="rations__items-img">
@@ -200,7 +200,7 @@
 					<div class="rations__item-sub-title">Баранина/Кролик</div>
 					<div class="rations__item-text">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</div>
 					<div class="rations__item-weight">700г / 500г / 300г / 150г / 100г</div>
-					<button class="rations__item-btn"><span>Заказать</span></button>
+					<button id="rt-popup-4" class="rations__item-btn"><span>Заказать</span></button>
 				</div>
 			</div>
 			<div class="calculate">
@@ -432,6 +432,64 @@
 			<div class="th-content">
 				<div class="th-title title">Спасибо!</div>
 				<div class="th-text">Мы ответим вам в ближайшее время.</div>
+			</div>
+		</div>
+	</div>
+	<div class="rations-popup-1">
+		<div id="overlay"></div>
+		<div class="rt-window">
+			<a id="th-x" class="th-x"><img src="img/X.svg" alt=""></a>
+			<div class="rt-content1 notActive">
+				<div class="rt-imgs">
+					<div class="rt-main-img"><img src="img/rationsZooov/zoov1.png"></div>
+					<div class="rt-gallery">
+						<img src="img/rationsZooov/popup-img/rt1.png" alt="">
+						<img src="img/rationsZooov/popup-img/rt2.png" alt="">
+						<img src="img/rationsZooov/popup-img/rt3.png" alt="">
+					</div>
+				</div>
+				<div class="rt-texts">
+					<div class="rt-title">Для взрослых собак</div>
+					<div class="rt-sub-title">Баранина/Кролик</div>
+					<div class="rt-text">
+						<p class="rt-every-eating">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</p>
+						<p class="rt-structure"><span>Состав:</span> Мякоть баранины (46,5%), мясо кролика (23,5%), кости кролика (10%), печень баранины (5%), почки бараньи (2,5%), рубец бараний (2,5%), кабачок (3%), брокколи (3%), семена конопли (2%), шпинат (1%), яблоко (1%), льняное масло, конопляное масло.</p>
+						<p class="rt-nutritional"><span>Пищевая ценность на 100г:</span> 174.9 ккал, белки 16.45, жиры 11.9, углеводы 0.60</p>
+						<p class="rt-grams">500г/300г/100г</p>
+						<button id="rt-order" class="rt-order">Заказать</button>
+					</div>
+				</div>
+			</div>
+			<div class="rt-content2">
+				<div class="rt-imgs">
+					<div class="rt-full-main-img"><img src="img/rationsZooov/zoov1.png"></div>
+				</div>
+				<div class="rt-texts">
+					<div class="rt-title">Для взрослых собак</div>
+					<div class="rt-sub-title">Баранина/Кролик</div>
+					<div class="rt-form">
+						<input type="text" class="rt-form__name" placeholder="Имя">
+						<input type="number" class="rt-form__phone" placeholder="Телефон">
+						<input type="text" class="rt-form__address" placeholder="Адрес">
+						<div class="rations-gramms">
+							<div class="grams-main-option">
+								<span>700</span>
+								<img src="img/v.svg" alt="">
+							</div>
+						</div><br>
+						<label class="rt-form-count">
+							<span class="count-text">Количество: </span><span class="plus">+</span><input type="text" readonly placeholder="1"><span class="minus">-</span>
+						</label>
+						<label class="rations-checkbox-label">
+							<input type="checkbox" class="rt-checkbox">
+							<div class="rt-fake-checkbox"></div>
+							<p>Даю согласие на обработку персональных данных</p>
+						</label>
+						<div class="rt-order-place">
+							<span class="rt-order-place-text">828₽</span><button id="rt-arrange" class="rt-arrange">Оформить заказ</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
