@@ -994,7 +994,9 @@ font-family: 'Oswald', sans-serif;
 	color: #000000;
 }
 
-.rations-popup-1 {}
+.rations-popup-1 {
+	display: none;
+}
 
 .rt-window {
 	position: fixed;
