@@ -354,6 +354,11 @@
 	    margin: 15px 0 32px 0;
 	}
 
+	.rt-window {
+		width: 715px;
+		height: 530px;
+		padding: 25px;
+	}
 
 	.burger {
 		display: block;
@@ -404,6 +409,35 @@
 
 	.calculate__text {
 		margin-bottom: 30px;
+	}
+
+	.rt-window {
+		width: 100%;
+	}
+
+	.rt-gallery {
+		display: none;
+	}
+
+	.rt-main-img {
+	    margin-bottom: 15px;
+	    margin-right: 15px;
+	}
+
+	.rt-order {
+	    padding: 10px 40px;
+	}
+
+	.rt-grams {
+	    margin-bottom: 20px;
+	}
+
+	.rt-every-eating {
+	    margin: 15px 0 15px 0;
+	}
+
+	.rt-nutritional {
+	    margin: 25px 0 20px 0;
 	}
 }
 
@@ -490,20 +524,126 @@
 	.why-zooov {
 	    background: url(../img/bg-line2.png) no-repeat center;
 	}
+
+	.rt-form {
+		width: 100%;
+	}
+
+	.rt-imgs {
+		display: none;
+	}
+
+	.count-input {
+		width: 100%;
+		text-align: center;
+	}
+
+	.rt-form__phone, .rt-form__address, .rt-form__name {
+	    padding: 11px 16px;
+	    margin-bottom: 10px;
+	}
+
+	.count-input {
+	    width: 100%;
+	    background-color: #F4F5F5;
+	}
+
+	.rt-window {
+		height: 490px;
+	}
+
+	.rt-arrange {
+	    padding: 9px 35px;
+
+	}
+}
+
+@media (max-width: 380px) {
+	.count-input {
+    	padding: 14px 90px;
+	}
 }
 
 @media (max-width: 370px) {
 	.container {
 		width: 315px;
 	}
+
+	.rt-arrange {
+		padding: 8px 30px;
+		font-size: 15px;
+	}
+
+	.rt-order-place {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.rt-order-place-text {
+		margin: 0;
+	}
+
+	.rations-checkbox-label p {
+	    font-size: 14px;
+	}
 }
+
+@media (max-width: 375px) {
+	.rt-form__name, .rt-form__phone, .rt-form__address, .grams-option {
+	    width: 100%;
+	}
+
+	.count-input {
+	    padding: 14px 80px;
+	}
+
+	.rt-window {
+		padding: 15px;
+	}
+
+	.rt-order-place {
+	    display: flex;
+	    align-items: center;
+	}
+
+	.rt-order-place-text {
+		margin-right: 30px;
+	}
+
+	.rt-form {
+		width: 100%;
+	}
+
+	.rt-texts {
+	    margin-top: 40px;
+	}
 
 @media (max-width: 360px) {
 	.container {
 		width: 310px;
 	}
+
+	.rations-checkbox-label {
+	    margin-bottom: 14px;
+	}
+
+	.rations-checkbox-label p {
+	    font-size: 12px;
+	}
 }
 
+@media (max-width: 345px) {
+	.rt-order-place-text {
+	    margin-right: 15px;
+	}
+
+	.rations-checkbox-label p {
+	    font-size: 13px;
+   }
+	.count-input {
+	    width: 100%;
+	}
+}
 
 @media (max-width: 320px) {
 	.container {
@@ -559,5 +699,25 @@
 	.zoov-love__images>img {
 	    width: 100%;
 	}
-}
 
+	.rt-title {
+	    font-size: 18px;
+	    margin-bottom: 3px;
+	}
+
+	.rt-nutritional {
+	    margin: 7px 0 7px 0;
+	}
+
+	.rt-every-eating {
+	    margin: 5px 0 7px 0;
+	}
+
+	.rations-checkbox-label {
+	    margin-bottom: 10px;
+	}
+
+	.rt-window {
+	    height: 480px;
+	}
+}
