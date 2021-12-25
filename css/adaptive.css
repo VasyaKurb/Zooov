@@ -91,6 +91,10 @@
 	.ations__header-text {
 	    width: 675px;
    }
+
+   .calc-content {
+   		width: 65%;
+   }
 }
 
 @media (max-width: 1300px) {
@@ -108,6 +112,10 @@
 
 	.slide__list>div:first-child {
 	    margin-bottom: 26px;
+	}
+
+	.calc-content {
+	    width: 70%;
 	}
 }
 
@@ -152,6 +160,19 @@
 	.rations__item {
 	    width: 200px;
 	}
+
+	.calc-checkbox {
+	    margin-bottom: 19px;
+	}
+
+	.calc-form__wt, .calc-form__age, .calc-form__name, .calc-form__phone, .calc-form__features {
+	    margin-bottom: 14px;
+	}
+
+	.calc-text {
+    	margin: 24px 0 26px 0;
+	}
+}
 
 @media (max-width: 768px) {
 	body.lock {
@@ -294,7 +315,7 @@
 	}
 
 	.zoov-love__images {
-	    width: 70%;
+	    width: 90%;
 	    margin-top: 50px;
 	}
 
@@ -358,6 +379,20 @@
 		width: 715px;
 		height: 530px;
 		padding: 25px;
+	}
+
+	.calc-title {
+	    font-size: 32px;
+	    line-height: 130%;
+	    color: #961914;
+	    margin-top: 40px;
+	}
+
+	.calc-title {
+	    font-size: 32px;
+	    line-height: 130%;
+	    color: #961914;
+	    margin-top: 40px;
 	}
 
 	.burger {
@@ -438,6 +473,10 @@
 
 	.rt-nutritional {
 	    margin: 25px 0 20px 0;
+	}
+
+	.calc-content {
+		width: 90%;
 	}
 }
 
@@ -617,6 +656,7 @@
 	.rt-texts {
 	    margin-top: 40px;
 	}
+}
 
 @media (max-width: 360px) {
 	.container {
@@ -721,3 +761,10 @@
 	    height: 480px;
 	}
 }
+
+@media (max-height: 720px) {
+	.calc-content {
+		height: 100%;
+	}
+}
+

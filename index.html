@@ -199,7 +199,7 @@
 					<div class="rations__item-title">Для щенков</div>
 					<div class="rations__item-sub-title">Баранина/Кролик</div>
 					<div class="rations__item-text">Подходит для ежедвеного кормления. Богат животными белками и Омега-3.</div>
-					<div class="rations__item-weight" style="margin-bottom: 26px;">700г / 500г / 300г / 150г / 100г</div>
+					<div class="rations__item-weight"	>700г / 500г / 300г / 150г / 100г</div>
 					<button id="rt-popup-4" class="rations__item-btn"><a>Заказать</a></button>
 				</div>
 			</div>
@@ -207,7 +207,7 @@
 				<div class="calculate__wrap">
 					<div class="calculate__container">
 						<div class="calculate__text">Рассчитаем в каком количестве нужно кормить вашего хвостика рационами Zooov</div>
-						<a class="calculate__btn">Расчитать</a>
+						<a id="calculate__btn" class="calculate__btn">Расчитать</a>
 					</div>
 				</div>
 			</div>
@@ -510,8 +510,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="rations-popup-2">
+		</div>
+		<div class="rations-popup-2">
 				<div id="overlay"></div>
 				<div class="rt-window">
 					<a id="th-x" class="th-x"><img src="img/X.svg" alt=""></a>
@@ -585,8 +585,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="rations-popup-3">
+		</div>
+		<div class="rations-popup-3">
 				<div id="overlay"></div>
 				<div class="rt-window">
 					<a id="th-x" class="th-x"><img src="img/X.svg" alt=""></a>
@@ -660,8 +660,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="rations-popup-4">
+		</div>
+		<div class="rations-popup-4">
 				<div id="overlay"></div>
 				<div class="rt-window">
 					<a id="th-x" class="th-x"><img src="img/X.svg" alt=""></a>
@@ -735,8 +735,34 @@
 						</div>
 					</div>
 				</div>
-			</div>
+		</div>
 	</div>
+	<div class="modal-calculate">
+		<div id="overlay"></div>
+		<div class="calc-content">
+			<div class="calc-wrapper">
+				<div class="calc-x"><img src="img/X.svg" alt="X"></div>
+				<div class="calc-title title">Рассчет рациона</div>
+				<div class="calc-text">Заполните информацию и мы свяжемся с вами, чтобы подсказать с подбором рациона для вашего хвостика. Или напишите нам в мессендерах <a href="#">WhatsApp</a> и <a href="#">Telegram</a>.</div>
+				<div class="calc-checkbox">
+					<div class="calc-cb-btn"><input id="calc-dog" type="radio" name="dog" value="1"><label for="calc-dog" class="calc-cb__text">Взрослая собака</label></div>
+					<div class="calc-cb-btn"><input id="calc-puppy" type="radio" name="dog" value="2"><label for="calc-puppy" class="calc-cb__text">Щенок</label></div>
+				</div>
+				<form class="calc-form">
+						<input type="text" class="calc-form__wt" placeholder="Вес (кг)">
+						<input type="text" class="calc-form__age" placeholder="Возраст">
+						<input type="text" class="calc-form__name" placeholder="Ваше имя">
+						<input type="tel" class="calc-form__phone" placeholder="Телефон">
+						<textarea type="text" class="calc-form__features" placeholder="Если у вашего хвостика есть особенности здоровья – напишите об этом..."></textarea>
+				</form>
+				<label class="rations-checkbox-label">
+					<input type="checkbox" class="rt-checkbox">
+					<div class="rt-fake-checkbox"></div>
+					<p>Даю согласие на обработку персональных данных</p>
+				</label>
+				<a id="calc-btn" class="calc-btn">Расчитать</a>
+			</div>
+		</div>
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="slick/slick.min.js"></script>

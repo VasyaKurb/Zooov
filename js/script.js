@@ -17,12 +17,12 @@ for (var i = 0; i < faqControl.length; i++) {
 	});
 };
 
-// Кнопки открытия попапа - "Заказать"
+// Button for open - "Заказать"
 let rtBtn1 = document.querySelector('#rt-popup-1');
 let rtBtn2 = document.querySelector('#rt-popup-2');
 let rtBtn3 = document.querySelector('#rt-popup-3');
 let rtBtn4 = document.querySelector('#rt-popup-4');
-// попапы
+// popups
 let rtpopup1 = document.querySelector('.rations-popup-1');
 let rtpopup2 = document.querySelector('.rations-popup-2');
 let rtpopup3 = document.querySelector('.rations-popup-3');
@@ -66,6 +66,24 @@ $(function() {
 });
 // -------------
 
+// calculate-popup
+$(function() {
+	// Open
+	$('#calculate__btn').click(function() {
+		$('.modal-calculate').addClass('active');
+	});
+	// Close
+	$('.calc-x, #overlay').click(function() {
+		$('.modal-calculate').removeClass('active');
+	});
+	// open next popup
+	$('#calc-btn').click(function() {
+		$('.modal-calculate').removeClass('active');
+		$('.thank-popup').addClass('active');
+	});
+});
+// ---------------
+
 // burger
 $(function(){
   	$('.burger').click(function() {
@@ -82,7 +100,7 @@ $(window).on("scroll", function() {
 });
 //--------------
 
-// Слайдер
+// Sliders
 $(function(){
   	$('.product__slider_wrap').slick({
   		infinite: true,

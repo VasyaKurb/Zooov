@@ -342,8 +342,6 @@ font-family: 'Oswald', sans-serif;
 }
 
 .rations__items {
-	display: flex;
-	flex-wrap: wrap;
 	z-index: 1;
 }
 
@@ -1355,6 +1353,130 @@ font-family: 'Oswald', sans-serif;
 .rations-popup-4{display: none;}
 
 .rations-popup-1.active, .rations-popup-2.active, .rations-popup-3.active, .rations-popup-4.active {
+	display: block;
+}
+
+
+.modal-calculate {
+	display: none;
+}
+
+.calc-content {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	background-color: #fff;
+	width: 35%;
+	overflow: auto;
+}
+
+.calc-wrapper {
+	width: 100%;
+	padding: 0 24px;
+}
+
+.calc-x {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.calc-title {
+	font-size: 32px;
+	line-height: 130%;
+	color: #961914;
+	margin-top: 32px;
+}
+.calc-text {
+    margin: 16px 0 20px 0;
+	font-size: 15px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.calc-checkbox {
+	margin-bottom: 20px;
+}
+
+.calc-cb-btn {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.calc-cb-btn input[type=radio] {
+	display: none;
+}
+
+.calc-cb-btn:first-child {
+	margin-bottom: 8px;
+}
+
+.calc-cb-btn input{
+	margin-bottom: 8px;
+}
+
+.calc-cb__text {
+	font-size: 14px;
+	line-height: 140%;
+	color: #000000;
+	display: flex;
+	align-items: center;
+}
+
+.calc-cb-btn label:before {
+	content: "";
+	display: block;
+	width: 17px;
+	height: 18px;
+	background: url(../img/go.svg) 0 0 no-repeat;
+	margin-right: 8px;
+}
+
+.calc-cb-btn input[type=radio]:checked + label:before {
+	background: url(../img/o.svg) 0 0 no-repeat;
+}
+
+.calc-form__wt , .calc-form__age, .calc-form__name, .calc-form__phone, .calc-form__features {
+	background: #F4F5F5;
+	border-radius: 8px;
+	padding: 16px 14px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.calc-form__features {
+	resize: none;
+	height: 90px;
+}
+
+
+.rations-checkbox-label {}
+.rt-checkbox {}
+.rt-fake-checkbox {}
+
+.calc-btn {
+	transition: 0.4s;
+	display: block;
+	font-weight: 600;
+	margin-bottom: 40px;
+	background: #961914;
+	border-radius: 8px;
+	line-height: 140%;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 13px 0;
+	cursor: pointer;
+}
+
+.calc-btn:hover {
+	background-color: #69120E;
+}
+
+.active {
 	display: block;
 }
 
