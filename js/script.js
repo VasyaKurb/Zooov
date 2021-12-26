@@ -63,6 +63,20 @@ $(function() {
 		$('.rt-content1').removeClass('notActive');
 		$('.rt-content2, .rt-content3').addClass('notActive');
 	});
+
+	$(".plus").click(function() {
+	  let $price = $(".count-input");
+	  $price.val(parseInt($price.val()) + 1);
+	  $price.change();
+	});
+	
+	$(".minus").click(function() {
+	  let $price = $(".count-input");
+	  if ($price.val() >= 1) {
+		$price.val(parseInt($price.val()) - 1);
+		$price.change();
+	  };
+	});
 });
 // -------------
 
@@ -99,6 +113,64 @@ $(window).on("scroll", function() {
         else $('.header').removeClass('scrolled');
 });
 //--------------
+
+// Якори
+$('#description-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#description').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#rations-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#rations').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#zooov-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#zooov').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#our-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#our').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#delivery-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#delivery').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#faq-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#faq').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#contacts-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#contacts').offset().top }, 500);
+  e.preventDefault();
+  $('.header__menu, .burger').removeClass('menu-active');
+  $('body').removeClass('lock');
+});
+
+$('#desc-btn').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#rations').offset().top }, 500);
+  e.preventDefault();
+});
+
+
+// ---------
 
 // Sliders
 $(function(){
@@ -154,3 +226,4 @@ $(function() {
 	});
 })
 // -------------
+

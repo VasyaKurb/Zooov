@@ -21,13 +21,13 @@
 						</div>
 						<nav class="header__menu">
 							<ul class="header__list">
-								<li><a href="#description">BARF</a></li>
-								<li><a href="#rations">Рационы</a></li>
-								<li><a href="#">ZOOOV</a></li>
-								<li><a href="#">О нас</a></li>
-								<li><a href="#">Доставка</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a id="description-link" href="#description">BARF</a></li>
+								<li><a id="rations-link" href="#rations">Рационы</a></li>
+								<li><a id="zooov-link" href="#zooov">ZOOOV</a></li>
+								<li><a id="our-link" href="#our">О нас</a></li>
+								<li><a id="delivery-link" href="#delivery">Доставка</a></li>
+								<li><a id="faq-link" href="#faq">FAQ</a></li>
+								<li><a id="contacts-link" href="#contacts">Контакты</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -39,7 +39,7 @@
 				</div>
 				<div class="header-desc__sub-title">Натуральные рационы питания для собак по системе BARF</div>
 				<div class="header-desc__btn">
-					<button>Выбрать рацион</button>
+					<button id="desc-btn">Выбрать рацион</button>
 				</div>		
 			</div>
 		</div>
@@ -213,7 +213,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="why-zooov">
+	<section id="zooov" class="why-zooov">
+		<span class="anchor" id="zooov"></span>
 		<div class="container">
 			<div class="why-zooov__wraper">
 				<div class="why-zooov__container">
@@ -244,7 +245,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="zoov-love">
+	<section id="our" class="zoov-love">
+		<span class="anchor" id="our"></span>
 		<div class="zoov-love__wrap">
 			<div class="zoov-love__container">
 				<div class="zoov-love__bg-img">
@@ -264,6 +266,7 @@
 		</div>
 	</section>
 	<section class="how-to-take">
+		<span class="anchor" id="delivery"></span>
 		<div class="container">
 			<div class="how-to-take__title title">Как получить ZOOOV?</div>
 			<div class="how-to-take__items">
@@ -302,6 +305,7 @@
 		</div>
 	</section>
 	<section class="faq">
+		<span class="anchor" id="faq"></span>
 		<div class="container">
 			<div class="faq-wrapper">
 				<div class="faq__title title">Частые вопросы</div>
@@ -375,7 +379,7 @@
 				</div>
 			</div>
 	</section>
-	<section class="footer">
+	<section id="contacts" class="footer">
 		<div class="footer-top">
 			<div class="footer-bg">
 				<div class="container">
@@ -483,7 +487,7 @@
 									</select>
 								</div><br>
 								<div class="rt-form-count">
-									<input id="count-input" class="count-input" type="text" readonly placeholder="1">
+									<input id="count-input" class="count-input" type="text" readonly value="1">
 									<span id="plus" class="plus"></span>
 									<span id="minus" class="minus"></span>
 								</div>
@@ -558,7 +562,7 @@
 									</select>
 								</div><br>
 								<div class="rt-form-count">
-									<input id="count-input" class="count-input" type="text" readonly placeholder="1">
+									<input id="count-input" class="count-input" type="text" readonly value="1">
 									<span id="plus" class="plus"></span>
 									<span id="minus" class="minus"></span>
 								</div>
@@ -633,7 +637,7 @@
 									</select>
 								</div><br>
 								<div class="rt-form-count">
-									<input id="count-input" class="count-input" type="text" readonly placeholder="1">
+									<input id="count-input" class="count-input" type="text" readonly value="1">
 									<span id="plus" class="plus"></span>
 									<span id="minus" class="minus"></span>
 								</div>
@@ -708,7 +712,7 @@
 									</select>
 								</div><br>
 								<div class="rt-form-count">
-									<input id="count-input" class="count-input" type="text" readonly placeholder="1">
+									<input id="count-input" class="count-input" type="text" readonly value="1">
 									<span id="plus" class="plus"></span>
 									<span id="minus" class="minus"></span>
 								</div>

@@ -624,6 +624,13 @@ font-family: 'Oswald', sans-serif;
 	padding-bottom: 180px;
 }
 
+.anchor {
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
 .faq-wrapper {
 	display: flex;
 }
@@ -892,6 +899,7 @@ font-family: 'Oswald', sans-serif;
 	line-height: 140%;
 	color: #fff;
 	cursor: pointer;
+	user-select: none;
 }
 
 .form__btn {
@@ -1145,6 +1153,7 @@ font-family: 'Oswald', sans-serif;
 
 .grams-option {
 	position: relative;
+	appearance: none;
 	display: flex;
 	width: 20em;
 	height: 3em;
@@ -1237,7 +1246,7 @@ font-family: 'Oswald', sans-serif;
 
 .count-input {
     width: 135px;
-    padding: 14px 64px;
+    padding: 14px 60px;
     background-color: #F4F5F5;
 }
 
@@ -1397,6 +1406,10 @@ font-family: 'Oswald', sans-serif;
 	color: #000000;
 }
 
+.calc-text a {
+	color: #961914;
+}
+
 .calc-checkbox {
 	margin-bottom: 20px;
 }
@@ -1405,6 +1418,7 @@ font-family: 'Oswald', sans-serif;
 	position: relative;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .calc-cb-btn input[type=radio] {
@@ -1484,3 +1498,6 @@ font-family: 'Oswald', sans-serif;
 	display: none;
 }
 
+.rations .slick-dots {
+	bottom: -40px;
+}
