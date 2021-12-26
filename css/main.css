@@ -69,8 +69,8 @@ font-family: 'Oswald', sans-serif;
 }
 
 .header.scrolled .logo>img {
-	width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .header.scrolled .header__list>li>a {
@@ -81,7 +81,7 @@ font-family: 'Oswald', sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
 }
 
 .logo {}
